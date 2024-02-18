@@ -21,8 +21,8 @@
 		"dev": "vite --port 3000",
 		"build": "vite build",
 		"clean": "rimraf dist/**",
+		"deploy": "gh-pages -d build",
 		"test": "node test/gen_test.js",
-		"deploy": "npm run build && vercel --local-config vercel.json --prod",
 		"postversion": "git push && git push --tags"
 	},
 	"dependencies": {
@@ -34,6 +34,7 @@
 		"vhtml": "^2.2.0"
 	},
 	"devDependencies": {
+		"gh-pages": "^6.1.1",
 		"prettier": "^3.1.1",
 		"rimraf": "^5.0.5",
 		"vite": "^5.0.10"
