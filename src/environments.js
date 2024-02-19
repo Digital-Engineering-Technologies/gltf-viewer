@@ -9,6 +9,13 @@ export const environments = [
 		name: 'Neutral',
 		path: null,
 	},
+	
+	{
+		id: 'norway-bergen',
+		name: 'Norege Bergens Vinter (HDR Labs)',
+		path: '../environments/bergen_8k.hdr',
+		format: '.hdr',
+	},
 	{
 		id: 'nasa-heaven',
 		name: 'Nasa Heaven (HDR Labs)',
