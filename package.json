@@ -21,7 +21,8 @@
 		"dev": "vite --port 3000",
 		"build": "vite build",
 		"clean": "rimraf dist/**",
-		"deploy": "gh-pages -d build",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d dist",
 		"test": "node test/gen_test.js",
 		"postversion": "git push && git push --tags"
 	},

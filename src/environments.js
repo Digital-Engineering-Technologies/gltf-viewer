@@ -9,6 +9,13 @@ export const environments = [
 		name: 'Neutral',
 		path: null,
 	},
+	
+	{
+		id: 'nasa-heaven',
+		name: 'Nasa Heaven (HDR Labs)',
+		path: '../environments/starmap_2020_4k.exr',
+		format: '.exr',
+	},
 	{
 		id: 'venice-sunset',
 		name: 'Venice Sunset',
