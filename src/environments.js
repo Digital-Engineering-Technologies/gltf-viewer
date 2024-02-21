@@ -17,6 +17,13 @@ export const environments = [
 		format: '.hdr',
 	},
 	{
+		id: 'clear-sky-blue',
+		name: 'Clear Blue Skyes',
+		path: '../environments/clean_sky_blue_2K_2014a381-91fd-4311-966e-5ce6bec3f5aa.exr',
+		format: '.exr',
+	},
+
+	{
 		id: 'nasa-heaven',
 		name: 'Nasa Heaven (HDR Labs)',
 		path: '../environments/starmap_2020_4k.exr',
